@@ -1,3 +1,5 @@
+package main
+
 /*238. 除自身以外数组的乘积*/
 func productExceptSelf(nums []int) []int {
     l := len(nums)
@@ -13,4 +15,7 @@ func productExceptSelf(nums []int) []int {
         right *= nums[l-i-1]
     }
     return res
+}
+
+func main() {
 }
